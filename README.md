@@ -39,7 +39,7 @@
   ```
 - Query Params
 
-  - http://enderecoservidor.com.br/v1/users?🔵page=🔴2🟠&🔵limit=🔴50</span>
+  - http://enderecoservidor.com.br/v1/users?🔵page=🔴2🟠&🔵limit=🔴50
   - 🔵 Chave (page e limit)
   - 🔴 Valor (2 e 50)
   - 🟠 Separação (&)
