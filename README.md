@@ -121,4 +121,4 @@ git push origin main # Enviar as alterações ao repositório remoto
   },
 ```
 
-- Portando, agora para executar o servidor, basta rodar na raiz do projeto: `$ yarn dev`
+- Portanto, agora para executar o servidor, basta rodar na raiz do projeto: `$ yarn dev`
