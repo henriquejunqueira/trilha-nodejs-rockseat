@@ -106,3 +106,19 @@ git commit -m "Remover node_modules do repositório" # Commitar as alterações
 
 git push origin main # Enviar as alterações ao repositório remoto
 ```
+
+### Adicionando o Nodemon na aplicação
+
+- Instalação do nodemon como dependência de desenvolvimento: `$ yarn add nodemon -D`
+
+### Configurado nodemon
+
+- No arquivo `package.json` foi criado o script:
+
+```json
+"scripts": {
+    "dev": "nodemon src/index.js"
+  },
+```
+
+- Portando, agora para executar o servidor, basta rodar na raiz do projeto: `$ yarn dev`
