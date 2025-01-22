@@ -72,3 +72,26 @@
     - http://enderecoservidor.com.br/v1/users/1
   - Atualização do status do usuário - PATCH
     - http://enderecoservidor.com.br/v1/users/1/status
+
+## Configurado o projeto
+
+- Iniciando o projeto criando o package.json: `yarn init -y`
+- Instalando o express: `yarn add express`
+
+### Rodando o servidor node
+
+- O arquivo dentro do diretório fundamentos-nodejs/src chamado de index.js é responsável por criar um servidor utilizando express, para rodá-lo, basta acessar fundamentos-nodejs e rodar no terminal: `$ node src/index.js`
+- Via navegador é possível acessar a API no link http://localhost:3333/
+
+### Básico para criar o servidor node:
+
+- Instalar express como mostrado acima;
+- Criar o arquivo .js que seráo servidor, por exemplo: `src/index.js`;
+- Adicionar no arquivo `src/index.js` os comandos:
+
+```javascript
+const express = require('express'); // Importa o express
+const app = express(); // Executa o express
+
+app.listen(3333); // Cria a escuta do servidor na porta 3333
+```
