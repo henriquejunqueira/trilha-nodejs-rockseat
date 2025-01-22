@@ -39,14 +39,15 @@
   ```
 - Query Params
 
-  - http://enderecoservidor.com.br/v1/users?<span style="color: #2a9d8f;">page</span>=<span style="color: #e76f51;">2</span><span style="color: #9e2a2b">&</span><span style="color: #2a9d8f;">limit</span>=<span style="color: #e76f51;">50</span>
-  - <span style="color: #2a9d8f">Chave</span>
-  - <span style="color: #e76f51;">Valor</span>
-  - <span style="color: #9e2a2b">Separação</span>
+  - http://enderecoservidor.com.br/v1/users?🔵page=🔴2🟠&🔵limit=🔴50</span>
+  - 🔵 Chave (page e limit)
+  - 🔴 Valor (2 e 50)
+  - 🟠 Separação (&)
 
 - Route Params
 
-  - http://enderecoservidor.com.br/v1/users/<span style="color: #fb8b24">{id}</span>
+  - http://enderecoservidor.com.br/v1/users/🟢{id}
+  - 🟢 Identificador (id)
 
 - Body Params
   ```json
