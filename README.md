@@ -95,3 +95,14 @@ const app = express(); // Executa o express
 
 app.listen(3333); // Cria a escuta do servidor na porta 3333
 ```
+
+### Removendo node_modules caso tenha subido para o github
+
+```shell
+
+git rm -r --cached node_modules # Remover o diretório node_modules do controle do Git
+
+git commit -m "Remover node_modules do repositório" # Commitar as alterações
+
+git push origin main # Enviar as alterações ao repositório remoto
+```
