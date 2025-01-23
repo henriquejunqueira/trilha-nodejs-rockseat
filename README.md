@@ -73,6 +73,12 @@
   - Atualização do status do usuário - PATCH
     - http://enderecoservidor.com.br/v1/users/1/status
 
+### Tipos de parâmetros
+
+- Route Params: Identifica um recurso para editar, deletar ou buscar
+- Query Params: Paginação, filtro de busca
+- Body Params: Objetos passados para inserção ou alteração dos dados (JSON)
+
 ## Configurado o projeto
 
 - Iniciando o projeto criando o package.json: `yarn init -y`
